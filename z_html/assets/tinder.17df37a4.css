@@ -1,0 +1,62 @@
+
+#app {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box
+}
+
+
+    #app {
+        width: 100%;
+        margin:0 auto;
+        height: 768px;
+        border-radius: 32px;
+        box-shadow: 0 0 0 1px #fff3
+    }
+
+
+.swiper-tinder {
+    padding: 16px;
+    width: 100%;
+    height: 100%
+}
+
+.swiper-slide {
+    border-radius: 16px
+}
+
+.swiper-slide:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    pointer-events: none;
+    content: "";
+    background-image: linear-gradient(to top,rgba(0,0,0,.95) 25%,rgba(0,0,0,0));
+    z-index: 10
+}
+
+.demo-slide-name {
+    padding: 16px 16px 96px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    z-index: 200;
+}
+
+.demo-empty-slide {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+}
+
+.demo-empty-slide:before {
+    display: none
+}
