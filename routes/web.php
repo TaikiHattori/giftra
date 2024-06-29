@@ -7,9 +7,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//giftcard：表示
 Route::get('/giftcard', function () {
     return view('giftcard');
 });
+
+//giftcard/preview：表示
+Route::post('/giftcard/preview', function () {
+    return view('giftcard-preview');
+});
+
+//giftcard：追加完了・表示
+// Route::post('/giftcard/preview/complete',[GiftController::class,"store"])->name('giftcard_store');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
