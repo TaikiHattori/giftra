@@ -48,7 +48,14 @@
                 </div>
             </div>
             
+
+
             <div class="w-full mx-auto max-w-screen-md">
+
+                <form method="POST" action="{{ url('/giftcard/preview') }}">
+                    <!-- route⇒urlに変更 -->
+                        @csrf
+
                 <div class="mt-5">
                     <h4 class="text-gray-900 text-xl font-semibold leading-loose">1. カードデザインを選ぶ</h4>
                     <div class="w-full">
@@ -65,7 +72,7 @@
                     <div class="w-full">
                         <div class="w-full">
                             <div class="w-full flex-col justify-start items-start gap-1.5 flex">
-                                <textarea rows="5" class="w-full focus:outline-none text-gray-900 placeholder-gray-400 text-lg font-normal leading-relaxed px-5 py-3 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] border border-gray-200 justify-start items-center gap-2 inline-flex" placeholder="結婚おめでとう！"></textarea>
+                                <textarea name="message" rows="5" class="w-full focus:outline-none text-gray-900 placeholder-gray-400 text-lg font-normal leading-relaxed px-5 py-3 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] border border-gray-200 justify-start items-center gap-2 inline-flex" placeholder="結婚おめでとう！"></textarea>
                                 
                             </div>
                         </div>
@@ -77,11 +84,12 @@
                     <div class="w-full">
                         <div class="w-full">
                             <div class="w-full flex-col justify-start items-start gap-1.5 flex">
-                                <input type="text" class="w-full focus:outline-none text-gray-900 placeholder-gray-400 text-lg font-normal leading-relaxed px-5 py-3 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] border border-gray-200 justify-start items-center gap-2 inline-flex" placeholder="山田 花子">
+                                <input name="giftername" type="text" class="w-full focus:outline-none text-gray-900 placeholder-gray-400 text-lg font-normal leading-relaxed px-5 py-3 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] border border-gray-200 justify-start items-center gap-2 inline-flex" placeholder="山田 花子">
                             </div>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="w-full mt-10 flex-col justify-start items-start lg:gap-10 gap-8 inline-flex">
                     <div class="w-full flex-col justify-start items-start gap-7 flex">
@@ -109,9 +117,16 @@
                     </div>
                 </div>
 
+
+                <input type="hidden" name="giftphoto" >
+                <input type="hidden" name="giftname" >
+                <input type="hidden" name="giftfee" >
+  
                 <button class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
                     <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">プレビュー・決済へ進む</span>
                 </button>
+
+                </form>
             </div>
         </div>
     </section>
