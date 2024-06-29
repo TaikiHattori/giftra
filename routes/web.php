@@ -2,24 +2,18 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GiftController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
 //giftcard：表示
-Route::get('/giftcard', function () {
-    return view('giftcard');
-});
-
+Route::get('/giftcard', [GiftController::class, 'create'])->name('giftcard.create');
 //giftcard/preview：表示
-Route::post('/giftcard/preview', function () {
-    return view('giftcard-preview');
-});
-
+Route::post('/giftcard/preview', [GiftController::class, 'preview'])->name('giftcard.preview');
 //giftcard：追加完了・表示
-// Route::post('/giftcard/preview/complete',[GiftController::class,"store"])->name('giftcard_store');
-
+Route::post('/giftcard/preview/complete', [GiftController::class, 'store'])->name('giftcard.store');
 
 
 Route::get('/dashboard', function () {
