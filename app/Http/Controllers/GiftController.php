@@ -25,6 +25,10 @@ class GiftController extends Controller
         return view('giftcard');
     }
 
+
+
+
+
     /**
      * Store a newly created resource in storage.記事投稿処理
      */
@@ -78,10 +82,15 @@ class GiftController extends Controller
     /**
      * 記事確認画面
      */
-    public function preview(Gift $gift)
+
+
+    public function preview(Request $request)
     {
-        // $data = $gift->all();
-        // return view('giftcard-preview', compact('data'));
-        return view('giftcard-preview');
+
+        // データを直接ビューに渡す
+        return view('giftcard-preview', $request);
     }
+
+   
+
 }
