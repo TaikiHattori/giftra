@@ -32,7 +32,7 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 class="font-manrope font-bold text-3xl min-[400px]:text-4xl text-black mb-8 max-lg:text-center">贈る価格から選ぶ</h2>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <a href="javascript:;" class="max-w-[384px] mx-auto">
+                <a href="/giftcard" class="max-w-[384px] mx-auto">
                     <div class="w-full max-w-sm aspect-square">
                         <img src="https://pagedone.io/asset/uploads/1701157806.png" alt="cream image" class="w-full h-full rounded-xl">
                     </div>
@@ -54,7 +54,7 @@
                     </div>
                 </a>
 
-                <a href="javascript:;" class="max-w-[384px] mx-auto">
+                <a href="/giftcard" class="max-w-[384px] mx-auto">
                     <div class="w-full max-w-sm aspect-square">
                         <img src="https://pagedone.io/asset/uploads/1701157826.png" alt="cream image" class="w-full h-full rounded-xl">
                     </div>
@@ -76,7 +76,7 @@
                     </div>
                 </a>
 
-                <a href="javascript:;" class="max-w-[384px] mx-auto">
+                <a href="/giftcard" class="max-w-[384px] mx-auto">
                     <div class="w-full max-w-sm aspect-square relative">
                         <img src="https://pagedone.io/asset/uploads/1701157844.png" alt="serum bottle image" class="w-full h-full rounded-xl">
                     </div>
