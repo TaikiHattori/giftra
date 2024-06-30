@@ -1,7 +1,6 @@
 @include('layouts.header')
 
 
-
     <section class="py-24">
         <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
             <div class="w-full flex-col justify-start items-center gap-10 inline-flex mb-5">
@@ -75,7 +74,6 @@
             </div>
         </div>
     </section>
-
 
 
     @include('layouts.footer')
