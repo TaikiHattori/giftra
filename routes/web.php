@@ -12,8 +12,13 @@ Route::get('/', function () {
 Route::get('/giftcard', [GiftController::class, 'create'])->name('giftcard.create');
 //giftcard/preview：表示
 Route::post('/giftcard/preview', [GiftController::class, 'preview'])->name('giftcard.preview');
-//giftcard：追加完了・表示
+//giftcard/preview/complete：表示
 Route::post('/giftcard/preview/complete', [GiftController::class, 'store'])->name('giftcard.store');
+
+Route::get('/present/{id}', [GiftController::class, 'index'])->name('present.index');
+
+
+
 
 
 Route::get('/dashboard', function () {
