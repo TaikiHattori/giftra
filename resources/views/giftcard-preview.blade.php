@@ -84,7 +84,7 @@
 
                                     </div>
                                     <div class="flex justify-end items-center w-full">
-                                        <h4 class="max-w-[300px] w-full text-right text-black text-lg font-medium leading-relaxed pl-5">{{ $giftfee}}分の旅行</h4>
+                                        <h4 class="max-w-[300px] w-full text-right text-black text-lg font-medium leading-relaxed pl-5">{{ $giftfee}}万円分の旅行</h4>
                                         <input type="hidden" name="giftfee" value="{{ $giftfee}}">
                                     
                                     </div>
@@ -101,8 +101,8 @@
                     <div class="w-full rounded-xl flex-col justify-start items-start gap-6 flex">
                         <div class="w-full pb-6 border-b border-gray-200 justify-between items-start gap-6 inline-flex">
                             <h3 class="text-gray-900 text-2xl font-semibold font-manrope leading-9">合計（税込）</h3>
-                            <h3 class="text-right text-orange-600 text-2xl font-bold font-manrope leading-9">{{ $giftfee}}万円</h3>
-                            <input type="hidden" name="giftfee" value="{{ $giftfee}}">
+                            <h3 class="text-right text-orange-600 text-2xl font-bold font-manrope leading-9">{{ ($giftfee * 1.1)}}万円</h3>
+                            <input type="hidden" name="giftfee" value="{{ ($giftfee * 1.1)}}">
                         </div>
                     </div>
                 </div>
@@ -115,11 +115,6 @@
             
         </div>
     </section>
-
-
-
-
-
 
 
 
