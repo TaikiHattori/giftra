@@ -16,10 +16,29 @@ class GiftController extends Controller
     /**
      * Display a listing of the resource.記事一覧表示
      */
-    public function index()
+    public function index($id)
     {
-        //
+        // データベースからギフトの情報を取得
+        $gift = Gift::find($id); // 仮にGiftモデルを使用する場合の例
+
+        // データが存在しない場合の処理
+        if (!$gift) {
+            abort(404); // 例として404エラーを表示する
+        }
+
+        // ビューにデータをまとめて渡して表示
+        return view('present', [
+        'message' => $gift->message,
+        'giftername' => $gift->giftername,
+        'giftphoto' => $gift->giftphoto,
+        'giftname' => $gift->giftname,
+        'giftfee' => $gift->giftfee,
+    ]);
     }
+
+
+
+
 
     /**
      * Show the form for creating a new resource.記事投稿画面表示
