@@ -2,7 +2,10 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\GiftController;
+
+use App\Http\Controllers\PostController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -17,6 +20,14 @@ Route::post('/giftcard/preview/complete', [GiftController::class, 'store'])->nam
 
 Route::get('/present/{id}', [GiftController::class, 'index'])->name('present.index');
 
+
+
+
+
+//post 入力画面
+Route::get('/post', [PostController::class, 'create'])->name('post.create');
+//post 登録処理
+Route::post('/post/complete', [PostController::class, 'store'])->name('post.store');
 
 
 
