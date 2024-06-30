@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    @vite('resources/css/app.css')
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXfmxHI2P_icXXsrbLZXz6pfQfHN92vDM&libraries=places"></script>
+    @vite(['resources/css/app.css','resources/js/api.js'])
+    
     <link href="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/css/pagedone.css"/>
     <title>ギフトラ</title>
 
