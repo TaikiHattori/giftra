@@ -49,7 +49,8 @@
                 </div>
             </div>
 
-
+        <form method="POST" action="{{ url('/giftcard/preview/complete') }}">
+        @csrf
             <div class="w-full mt-5 max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
 
             
@@ -112,7 +113,7 @@
                 </button>
             </div>
 
-            
+        </form>    
         </div>
     </section>
 

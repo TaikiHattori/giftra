@@ -13,6 +13,15 @@ return new class extends Migration
     {
         Schema::create('gifts', function (Blueprint $table) {
             $table->id();
+
+            //カラム追加
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete()->nullable();
+            $table->string('message');
+            $table->string('giftername');
+            $table->binary('giftphoto')->nullable();
+            $table->string('giftname');
+            $table->integer('giftfee');
+            
             $table->timestamps();
         });
     }

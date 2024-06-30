@@ -7,7 +7,11 @@ use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;      //ユーザー
 
+use Illuminate\Session\Middleware\StartSession;   //preview_complete
+
 class GiftController extends Controller
+
+
 {
     /**
      * Display a listing of the resource.記事一覧表示
@@ -34,9 +38,11 @@ class GiftController extends Controller
      */
     public function store(Request $request)
     {
+
+
         // Eloquentモデル
-        $gifts = new Gift;
-        $gifts->user_id    = Auth::user()->id; //追加のコード
+        $gifts = new Gift();
+        $gifts->user_id    = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
         $gifts->message    = $request->message;
         $gifts->giftername = $request->giftername;
         $gifts->giftphoto  = $request->giftphoto;
