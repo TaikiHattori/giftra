@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/css/pagedone.css"/>
-    <title>Document</title>
-</head>
-<body>
-
+@include('layouts.header')
 
 
     <section class="py-24">
@@ -53,5 +43,5 @@
       </div>
   </section>
 
-</body>
-</html>
+
+@include('layouts.footer')
