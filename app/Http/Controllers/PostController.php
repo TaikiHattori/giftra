@@ -30,13 +30,17 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        $image = $request->file('image');
+        $path = $image->store('public/images');
+        
         // Eloquentモデル
         $posts = new Post();
         $posts->user_id    = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
-        $posts->location = $request->location;
-        $posts->latitude = $request->latitude;
+        $posts->path       = $path;
+        $posts->location   = $request->location;
+        $posts->latitude   = $request->latitude;
         $posts->longitude  = $request->longitude;
-        $posts->comment   = $request->comment;
+        $posts->comment    = $request->comment;
         $posts->save(); 
         return redirect('/');
     }
