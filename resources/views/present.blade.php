@@ -44,9 +44,11 @@
 
 
           <div class="w-full mx-auto max-w-screen-md">
+            <a href="/plan">
               <button class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
                   <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">旅行を計画する</span>
               </button>
+            </a>
           </div>
       </div>
   </section>
