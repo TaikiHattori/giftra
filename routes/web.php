@@ -31,7 +31,8 @@ Route::get('/plan', [GiftController::class, 'create_plan'])->name('plan.create_p
 Route::get('/post', [PostController::class, 'create'])->name('post.create');
 //post 登録処理
 Route::post('/post/complete', [PostController::class, 'store'])->name('post.store');
-
+//post 表示画面
+Route::get('/photo', [PostController::class, 'index'])->name('post.index');
 
 
 
