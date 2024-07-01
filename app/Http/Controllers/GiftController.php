@@ -47,8 +47,12 @@ class GiftController extends Controller
     {
         return view('giftcard');
     }
-
-
+    
+    
+    public function create_plan()
+    {
+        return view('plan');
+    }
 
 
 

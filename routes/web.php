@@ -11,14 +11,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//giftcard：表示
+//create:入力画面
 Route::get('/giftcard', [GiftController::class, 'create'])->name('giftcard.create');
-//giftcard/preview：表示
+//preview:確認画面
 Route::post('/giftcard/preview', [GiftController::class, 'preview'])->name('giftcard.preview');
-//giftcard/preview/complete：表示
+//store:決定画面
 Route::post('/giftcard/preview/complete', [GiftController::class, 'store'])->name('giftcard.store');
 
+//index:表示画面
 Route::get('/present/{id}', [GiftController::class, 'index'])->name('present.index');
+//create:入力画面
+Route::get('/plan', [GiftController::class, 'create_plan'])->name('plan.create_plan');
 
 
 

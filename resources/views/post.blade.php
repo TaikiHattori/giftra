@@ -1,6 +1,7 @@
 @include('layouts.header')
 
 
+
     <section class="py-24">
         <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
             <div class="w-full flex-col justify-start items-center gap-10 inline-flex mb-5">
@@ -32,7 +33,6 @@
                         <div class="w-full">
                             <div class="w-full flex-col justify-start items-start gap-1.5 flex">
                                 <input id="location" name="location" type="text" class="w-full focus:outline-none text-gray-900 placeholder-gray-400 text-lg font-normal leading-relaxed px-5 py-3 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] border border-gray-200 justify-start items-center gap-2 inline-flex">
-                                
                             </div>
                         </div>
                     </div>
@@ -74,6 +74,7 @@
             </div>
         </div>
     </section>
+
 
 
     @include('layouts.footer')
