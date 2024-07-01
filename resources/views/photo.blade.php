@@ -94,11 +94,11 @@
 
                     <div class="swiper-slide demo-empty-slide text-center bg-[url('https://pagedone.io/asset/uploads/1705473908.png')] bg-cover">
                       <p class="text-gray-900 text-3xl md:text-xl font-semibold leading-loose">あなたにぴったりな<br>セレンディピティが見つかりました！</p>
-                      <div class="">
-                        <a href="#" class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
-                          <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">しおりを確認する</span>
-                        </a>
-                      </div>
+                        <div>
+                            <a href="{{ url('/guide') }}" class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
+                            <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">しおりを確認する</span>
+                            </a>
+                        </div>
                     </div>
               </div>
 
