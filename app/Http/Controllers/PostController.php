@@ -14,7 +14,11 @@ class PostController extends Controller
      */
     public function index()
     {
-        return view('photo');
+
+        $posts = Post::orderBy('created_at', 'asc')->get();
+        return view('photo', [
+            'photo' => $posts
+        ]);
 
     }
 
