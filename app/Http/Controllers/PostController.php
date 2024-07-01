@@ -38,7 +38,7 @@ class PostController extends Controller
         $posts->longitude  = $request->longitude;
         $posts->comment   = $request->comment;
         $posts->save(); 
-        return view('/');
+        return redirect('/');
     }
 
     /**

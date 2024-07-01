@@ -17,8 +17,8 @@ return new class extends Migration
             //カラム追加
             $table->foreignId('user_id')->constrained()->cascadeOnDelete()->nullable();
             $table->string('location');
-            $table->decimal('latitude');
-            $table->decimal('longitude');
+            $table->decimal('latitude', 10, 6);
+            $table->decimal('longitude', 10, 6);
             $table->string('comment');
 
             $table->timestamps();
