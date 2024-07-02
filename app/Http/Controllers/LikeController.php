@@ -5,6 +5,12 @@ namespace App\Http\Controllers;
 use App\Models\Like;
 use Illuminate\Http\Request;
 
+
+
+// 使わない//はてぃ追記
+
+
+
 class LikeController extends Controller
 {
     /**

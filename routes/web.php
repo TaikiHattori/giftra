@@ -34,6 +34,13 @@ Route::post('/post/complete', [PostController::class, 'store'])->name('post.stor
 //post 表示画面
 Route::get('/photo', [PostController::class, 'index'])->name('post.index');
 
+// 追加はてぃ
+Route::post('/photo', [PostController::class, 'like'])->name('photo.like');
+
+
+
+
+
 
 
 Route::get('/dashboard', function () {
