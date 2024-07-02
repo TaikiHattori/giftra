@@ -87,7 +87,8 @@
                         <div class="w-full pb-6 border-b border-gray-200 justify-between items-start gap-6 inline-flex">
                             <h3 class="text-gray-900 text-2xl font-semibold font-manrope leading-9">合計（税込）</h3>
                             <h3 class="text-right text-orange-600 text-2xl font-bold font-manrope leading-9">{{ ($giftfee * 1.1)}}万円</h3>
-                            <input type="hidden" name="giftfee" value="{{ ($giftfee * 1.1)}}">
+                            <input type="hidden" name="giftfee" value="{{ ($giftfee)}}">
+                            <!-- ↑value="{{ ($giftfee)}}"更新はてぃ -->
                         </div>
                     </div>
                 </div>
