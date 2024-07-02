@@ -39,7 +39,7 @@
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
                             <h6 class="font-medium text-xl leading-8 text-black mb-2">Standard</h6>
-                            <h6 class="font-semibold text-xl leading-8 text-orange-600">10万円</h6>
+                            <h6 class="font-semibold text-xl leading-8 text-orange-600">5万円</h6>
                         </div>
                         <button
                             class="p-2 min-[400px]:p-4 rounded-full bg-white border border-gray-300 flex items-center justify-center group shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:border-gray-400 hover:bg-gray-50">
@@ -61,7 +61,7 @@
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
                             <h6 class="font-medium text-xl leading-8 text-black mb-2">Special</h6>
-                            <h6 class="font-semibold text-xl leading-8 text-orange-600">30万円</h6>
+                            <h6 class="font-semibold text-xl leading-8 text-orange-600">10万円</h6>
                         </div>
                         <button
                             class="p-2 min-[400px]:p-4 rounded-full bg-white border border-gray-300 flex items-center justify-center group shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:border-gray-400 hover:bg-gray-50">
@@ -83,7 +83,7 @@
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
                             <h6 class="font-medium text-xl leading-8 text-black mb-2">Premium</h6>
-                            <h6 class="font-semibold text-xl leading-8 text-orange-600">100万円</h6>
+                            <h6 class="font-semibold text-xl leading-8 text-orange-600">30万円</h6>
                         </div>
                         <button
                             class="p-2 min-[400px]:p-4 rounded-full bg-white border border-gray-300 flex items-center justify-center group shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:border-gray-400 hover:bg-gray-50">

@@ -23,7 +23,7 @@
                                       </div>
                                   </div>
                                   <div class="flex justify-end items-center w-full">
-                                      <h4 class="max-w-[300px] w-full text-right text-black text-lg font-medium leading-relaxed pl-5">{{ ($giftfee/1.1) }}万円分の旅行</h4>
+                                      <h4 class="max-w-[300px] w-full text-right text-black text-lg font-medium leading-relaxed pl-5">{{ ($giftfee) }}万円分の旅行</h4>
                                   </div>
                               </div>
                           </div>
