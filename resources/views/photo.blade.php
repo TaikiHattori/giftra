@@ -13,6 +13,10 @@
                     @if (count($photo) > 0)
                         @foreach ($photo as $post)
                             <div class="swiper-slide">
+                                <input type="hidden" class="postid-hidden" value="{{ $post->id }}" />
+                                <input type="hidden" class="latitude-hidden" value="{{ $post->latitude }}" />
+                                <input type="hidden" class="longitude-hidden" value="{{ $post->longitude }}" />
+                                <input type="hidden" class="img-hidden" value="{{ Storage::url($post->path) }}" />
                                 <img src="{{ Storage::url($post->path) }}" alt="">
                                 <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
                                 <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div>
@@ -95,9 +99,10 @@
                     <div class="swiper-slide demo-empty-slide text-center bg-[url('https://pagedone.io/asset/uploads/1705473908.png')] bg-cover">
                       <p class="text-gray-900 text-3xl md:text-xl font-semibold leading-loose">あなたにぴったりな<br>セレンディピティが見つかりました！</p>
                         <div>
-                            <a href="{{ url('/guide') }}" class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
-                            <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">しおりを確認する</span>
-                            </a>
+                            <form method="post" action="{{ url('/guide') }}" id="form">
+                                @csrf
+                                <input type="submit" value="しおりを確認する" class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex px-3.5 text-center text-white text-lg font-semibold leading-8" />
+                            </form>
                         </div>
                     </div>
               </div>
@@ -120,5 +125,41 @@
     </div>
 </section>
 
+<script>
+const params = [];
 
-    @include('layouts.footer')
+document.getElementById('form').addEventListener('submit', function(event) {
+    const form = document.getElementById('form');
+
+    // 追加するパラメータ
+    const spots = JSON.stringify(params);
+    
+    // hidden input要素を作成して日時を追加
+    const hiddenInput = document.createElement('input');
+    hiddenInput.type = 'hidden';
+    hiddenInput.name = 'likeSpots';
+    hiddenInput.value = spots;
+    
+    form.appendChild(hiddenInput);
+});
+
+// JavaScriptの一部として、Likeボタンのクリックイベントを設定する
+document.querySelectorAll('.swiper-tinder-button-yes').forEach(button => {
+    button.addEventListener('click', function() {
+        // クリックされた投稿のIDを取得する
+        const currentSlide = document.querySelector('.swiper-slide-visible');
+        let postId = currentSlide.querySelector('.postid-hidden').value;
+        let latitude = currentSlide.querySelector('.latitude-hidden').value;
+        let longitude = currentSlide.querySelector('.longitude-hidden').value;
+        let url = currentSlide.querySelector('.img-hidden').value;
+
+        console.log(postId, latitude, longitude);
+        params.push({ postId: postId, latitude: latitude, longitude: longitude, url: url });
+
+        // データを次のページに送信する（例：クエリパラメータを使用）
+        // window.location.href = `/guide/${postId}?lat=${latitude}&long=${longitude}`;
+    });
+});
+</script>
+
+@include('layouts.footer')
