@@ -85,11 +85,11 @@
                                     <img src="https://pagedone.io/asset/uploads/1712126556.png" alt="Maharaja Chair image" class="w-[120px]">
                                     
                                     <div class="pro-data w-full max-w-sm flex-col justify-start items-start gap-2 inline-flex">
-                                        <h4 class="w-full text-black text-lg font-medium leading-relaxed max-[550px]:text-center">松</h4>
+                                        <h4 class="w-full text-black text-lg font-medium leading-relaxed max-[550px]:text-center">Premium</h4>
                                     </div>
                                 </div>
                                 <div class="flex justify-end items-center w-full">
-                                    <h4 class="max-w-[300px] w-full text-right text-black text-lg font-medium leading-relaxed pl-5">100万円</h4>
+                                    <h4 class="max-w-[300px] w-full text-right text-black text-lg font-medium leading-relaxed pl-5">30万円</h4>
                                 </div>
                             </div>
                         </div>
@@ -97,15 +97,15 @@
                     <div class="w-full rounded-xl flex-col justify-start items-start gap-6 flex">
                         <div class="w-full pb-6 border-b border-gray-200 justify-between items-start gap-6 inline-flex">
                             <h3 class="text-gray-900 text-2xl font-semibold font-manrope leading-9">合計（税込）</h3>
-                            <h3 class="text-right text-orange-600 text-2xl font-bold font-manrope leading-9">110万円</h3>
+                            <h3 class="text-right text-orange-600 text-2xl font-bold font-manrope leading-9">33万円</h3>
                         </div>
                     </div>
                 </div>
 
 
                 <input type="hidden" name="giftphoto" >
-                <input type="hidden" name="giftname" value="松" >
-                <input type="hidden" name="giftfee" value="100">
+                <input type="hidden" name="giftname" value="Premium" >
+                <input type="hidden" name="giftfee" value="30">
   
                 <button class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
                     <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">プレビュー・決済へ進む</span>
