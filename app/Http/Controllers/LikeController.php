@@ -7,10 +7,6 @@ use Illuminate\Http\Request;
 
 
 
-// 使わない//はてぃ追記
-
-
-
 class LikeController extends Controller
 {
     /**
