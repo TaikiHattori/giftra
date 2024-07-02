@@ -10,14 +10,13 @@ use Illuminate\Support\Facades\Auth;      //ユーザー
 use Illuminate\Session\Middleware\StartSession;   //preview_complete
 
 class GiftController extends Controller
-
-
 {
+    public const SESSION_KEY_GIFT_ID = 'SESSION_GIFT_ID';
     /**
      * Display a listing of the resource.記事一覧表示
      */
-    public function index($id)
-    {
+    public function index(Request $request, $id)
+    {   
         // データベースからギフトの情報を取得
         $gift = Gift::find($id); // 仮にGiftモデルを使用する場合の例
 
@@ -26,14 +25,16 @@ class GiftController extends Controller
             abort(404); // 例として404エラーを表示する
         }
 
+        $request->session()->put(self::SESSION_KEY_GIFT_ID, $id);
+
         // ビューにデータをまとめて渡して表示
         return view('present', [
-        'message' => $gift->message,
-        'giftername' => $gift->giftername,
-        'giftphoto' => $gift->giftphoto,
-        'giftname' => $gift->giftname,
-        'giftfee' => $gift->giftfee,
-    ]);
+            'message' => $gift->message,
+            'giftername' => $gift->giftername,
+            'giftphoto' => $gift->giftphoto,
+            'giftname' => $gift->giftname,
+            'giftfee' => $gift->giftfee,
+        ]);
     }
 
 

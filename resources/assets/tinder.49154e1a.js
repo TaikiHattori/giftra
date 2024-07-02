@@ -4,6 +4,6 @@ import {E as e} from "./effect-tinder.f396dd4b.js";
 const o = new r(".swiper",{
     modules: [e],
     effect: "tinder",
-    grabCursor: !0
+    grabCursor: !0,
 });
 window.swiper = o;

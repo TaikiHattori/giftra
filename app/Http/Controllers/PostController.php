@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Like;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;      //ユーザー
+use App\Http\Controllers\GiftController;
 
 class PostController extends Controller
 {
@@ -14,12 +16,11 @@ class PostController extends Controller
      */
     public function index()
     {
-
-        $posts = Post::orderBy('created_at', 'asc')->get();
+        // $posts = Post::orderBy('created_at', 'asc')->get();
+        $posts = Post::take(2)->get();
         return view('photo', [
             'photo' => $posts
         ]);
-
     }
 
     /**
@@ -56,9 +57,18 @@ class PostController extends Controller
     /**
      * Display the specified resource.記事詳細表示
      */
-    public function show(Post $post)
-    {
-        //
+    public function show(Request $request) {
+        $likeSpots = json_decode($request->likeSpots, true);
+
+        foreach($likeSpots as $likeSpot){
+            $like = new Like();
+            $like->user_id  = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
+            $like->gift_id = $request->session()->get(GiftController::SESSION_KEY_GIFT_ID);
+            $like->post_id = $likeSpot['postId'];
+            $like->save();
+        }
+
+        return view('guide', ["likeSpots" => $request->likeSpots]);
     }
 
     /**
