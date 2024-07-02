@@ -50,6 +50,28 @@ class PostController extends Controller
         return redirect('/');
     }
 
+
+
+// はてぃ追加
+public function like(Request $request)
+    {
+        $like = new Like();
+        $like->user_id = auth()->id(); // ログインユーザーのID
+        $like->photo_id = $request->input('photo_id'); // フォームから送信された写真のID
+        $like->vote = $request->input('vote'); // フォームから送信された投票（'like'または'not_like'）
+
+        $like->save();
+
+        return response()->json(['message' => 'Like saved successfully']);
+    }
+
+
+
+
+
+
+
+
     /**
      * Display the specified resource.記事詳細表示
      */
