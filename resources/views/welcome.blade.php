@@ -4,12 +4,12 @@
     <!-- hero -->
     <section class="pt-20 pt-0  lg:pl-8 h-full">
         <div
-            class="rounded-2xl bg-orange-50 py-10 overflow-hidden m-5 lg:m-0 2xl:py-16 xl:py-8  lg:rounded-tl-2xl lg:rounded-bl-2xl ">
+            class="rounded-2xl bg-emerald-50 py-10 overflow-hidden m-5 lg:m-0 2xl:py-16 xl:py-8  lg:rounded-tl-2xl lg:rounded-bl-2xl ">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-14 items-center lg:grid-cols-12 lg:gap32">
                 <div class="w-full xl:col-span-5 lg:col-span-6 2xl:-mx-5 xl:-mx-0">
                 <h1 class="py-8 text-center text-gray-900 font-bold font-manrope text-5xl lg:text-left leading-[70px]">
-                    大切なあの人へ<br><span class="text-orange-600">セレンディピティ</span>を贈ろう
+                    大切なあの人へ<br><span class="text-yellow-600">セレンディピティ</span>を贈ろう
                 </h1>
                 <p class=" text-gray-500 text-lg text-center lg:text-left">
                     セレンディピティとは、「思いもよらなかった偶然がもたらす幸運」を意味する言葉です。
@@ -39,7 +39,7 @@
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
                             <h6 class="font-medium text-xl leading-8 text-black mb-2">Standard</h6>
-                            <h6 class="font-semibold text-xl leading-8 text-orange-600">5万円</h6>
+                            <h6 class="font-semibold text-xl leading-8 text-yellow-600">5万円</h6>
                         </div>
                         <button
                             class="p-2 min-[400px]:p-4 rounded-full bg-white border border-gray-300 flex items-center justify-center group shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:border-gray-400 hover:bg-gray-50">
@@ -61,7 +61,7 @@
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
                             <h6 class="font-medium text-xl leading-8 text-black mb-2">Special</h6>
-                            <h6 class="font-semibold text-xl leading-8 text-orange-600">10万円</h6>
+                            <h6 class="font-semibold text-xl leading-8 text-yellow-600">10万円</h6>
                         </div>
                         <button
                             class="p-2 min-[400px]:p-4 rounded-full bg-white border border-gray-300 flex items-center justify-center group shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:border-gray-400 hover:bg-gray-50">
@@ -83,7 +83,7 @@
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
                             <h6 class="font-medium text-xl leading-8 text-black mb-2">Premium</h6>
-                            <h6 class="font-semibold text-xl leading-8 text-orange-600">30万円</h6>
+                            <h6 class="font-semibold text-xl leading-8 text-yellow-600">30万円</h6>
                         </div>
                         <button
                             class="p-2 min-[400px]:p-4 rounded-full bg-white border border-gray-300 flex items-center justify-center group shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:border-gray-400 hover:bg-gray-50">
