@@ -41,7 +41,7 @@
                     <!-- route⇒urlに変更 -->
                         @csrf
 
-                <div class="mt-5">
+                {{-- <div class="mt-5">
                     <h4 class="text-gray-900 text-xl font-semibold leading-loose">1. カードデザインを選ぶ</h4>
                     <div class="w-full">
                         <div class="w-full">
@@ -50,10 +50,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="mt-10">
-                    <h4 class="text-gray-900 text-xl font-semibold leading-loose">2. メッセージを入力する</h4>
+                    <h4 class="text-gray-900 text-xl font-semibold leading-loose">1. メッセージを入力する</h4>
                     <div class="w-full">
                         <div class="w-full">
                             <div class="w-full flex-col justify-start items-start gap-1.5 flex">
@@ -65,7 +65,7 @@
                 </div>
 
                 <div class="mt-10">
-                    <h4 class="text-gray-900 text-xl font-semibold leading-loose">3. 贈り主のお名前</h4>
+                    <h4 class="text-gray-900 text-xl font-semibold leading-loose">2. 贈り主のお名前</h4>
                     <div class="w-full">
                         <div class="w-full">
                             <div class="w-full flex-col justify-start items-start gap-1.5 flex">
@@ -79,7 +79,7 @@
                 <div class="w-full mt-10 flex-col justify-start items-start lg:gap-10 gap-8 inline-flex">
                     <div class="w-full flex-col justify-start items-start gap-7 flex">
                         <div class="w-full justify-start items-start flex flex-col">
-                            <h4 class="text-gray-900 text-xl font-semibold leading-loose">4. 選んだギフト</h4>
+                            <h4 class="text-gray-900 text-xl font-semibold leading-loose">3. 選んだギフト</h4>
                             <div class="w-full py-3 pb-5 border-b border-gray-200 flex">
                                 <div class="flex items-center flex-col min-[550px]:flex-row gap-3 min-[550px]:gap-4 w-full max-xl:justify-center max-xl:max-w-xl max-xl:mx-auto">
                                 <!-- ↑画像削除はてぃ     -->

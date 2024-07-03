@@ -51,7 +51,7 @@
                 </div>
   
 
-                <div class="mt-10">
+                {{-- <div class="mt-10">
                     <h4 class="text-gray-900 text-xl font-semibold leading-loose">4. 評価</h4>
                     <div class="w-full">
                         <div class="w-full">
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
 
 
