@@ -19,12 +19,12 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="py-5 fixed z-50 w-full bg-white transition-all duration-500 ">
+        <nav class="fixed z-50 w-full bg-white transition-all duration-500 ">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="w-full flex justify-between flex-col lg:flex-row">
                     <div class=" flex justify-between  lg:flex-row">
                         <a href="/" class="flex items-center">
-                            ギフトラ
+                            <img src="/storage/img/giftra_logo.png" alt="" class="w-full max-w-40">
                         </a>
                         <button data-collapse-toggle="navbar" type="button"
                             class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
