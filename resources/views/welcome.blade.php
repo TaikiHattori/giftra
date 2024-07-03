@@ -2,7 +2,7 @@
 
 
     <!-- hero -->
-    <section class="pt-20 pt-0  lg:pl-8 h-full">
+    <section class="pt-24 lg:pl-8 h-full">
         <div
             class="rounded-2xl bg-emerald-50 py-10 overflow-hidden m-5 lg:m-0 2xl:py-16 xl:py-8  lg:rounded-tl-2xl lg:rounded-bl-2xl ">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="w-full xl:col-span-7  lg:col-span-6 block">
                 <div class="w-full  sm:w-auto lg:w-[60.8125rem] xl:ml-16">
-                    <img src="/storage/img/top.jpg" alt="Dashboard image" class="w-full lg:h-auto rounded-3xl">
+                    <img src="/storage/img/top.jpg" alt="" class="w-full lg:h-auto rounded-3xl">
                 </div>
                 </div>
             </div>
