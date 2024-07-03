@@ -2,7 +2,7 @@
 
 
     <!-- hero -->
-    <section class="lg:pl-8 h-full">
+    <section class="pt-24 lg:pl-8 h-full">
         <div
             class="rounded-2xl bg-emerald-50 py-10 overflow-hidden m-5 lg:m-0 2xl:py-16 xl:py-8  lg:rounded-tl-2xl lg:rounded-bl-2xl ">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
