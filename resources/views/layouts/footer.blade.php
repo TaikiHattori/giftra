@@ -7,7 +7,7 @@
       <div class="flex items-center flex-col xl:flex-row ">
         <ul class="text-lg  flex items-center flex-col md:flex-row  py-2 gap-6 md:gap-12 xl:border-l border-gray-200 xl:ml-11 xl:pl-11 transition-all duration-500">
           <li>
-            <a href="/profile" class="text-gray-400 hover:text-orange-600">マイページ</a>
+            <a href="/profile" class="text-gray-400 hover:text-yellow-600">マイページ</a>
           </li>
         </ul>
       </div>
