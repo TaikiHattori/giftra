@@ -82,7 +82,7 @@
                             <h4 class="text-gray-900 text-xl font-semibold leading-loose">4. 選んだギフト</h4>
                             <div class="w-full py-3 pb-5 border-b border-gray-200 flex">
                                 <div class="flex items-center flex-col min-[550px]:flex-row gap-3 min-[550px]:gap-4 w-full max-xl:justify-center max-xl:max-w-xl max-xl:mx-auto">
-                                    <img src="https://pagedone.io/asset/uploads/1712126556.png" alt="Maharaja Chair image" class="w-[120px]">
+                                <!-- ↑画像削除はてぃ     -->
                                     
                                     <div class="pro-data w-full max-w-sm flex-col justify-start items-start gap-2 inline-flex">
                                         <h4 class="w-full text-black text-lg font-medium leading-relaxed max-[550px]:text-center">Premium</h4>
