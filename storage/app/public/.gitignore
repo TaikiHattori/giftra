@@ -1,2 +1,10 @@
 *
 !.gitignore
+!/img/
+!who_couple.jpg
+!who_friend.jpg
+!who_parent.jpg
+!theme_activity.jpg
+!theme_gourmet.jpg
+!theme_nature.jpg
+!theme_spa.jpg
