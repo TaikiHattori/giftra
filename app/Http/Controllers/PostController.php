@@ -41,7 +41,8 @@ class PostController extends Controller
         
         // Eloquentモデル
         $posts = new Post();
-        $posts->user_id    = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
+        // $posts->user_id    = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
+        $posts->user_id  = Auth::id() ?? null; //ログインしていない場合はnullを代入
         $posts->path       = $path;
         $posts->location   = $request->location;
         $posts->latitude   = $request->latitude;
@@ -62,7 +63,8 @@ class PostController extends Controller
 
         foreach($likeSpots as $likeSpot){
             $like = new Like();
-            $like->user_id  = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
+            // $like->user_id  = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
+            $like->user_id  = Auth::id() ?? null; //ログインしていない場合はnullを代入
             $like->gift_id = $request->session()->get(GiftController::SESSION_KEY_GIFT_ID);
             $like->post_id = $likeSpot['postId'];
             $like->save();
