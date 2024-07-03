@@ -44,20 +44,20 @@
                             <ul class="flex lg:items-center flex-col max-lg:gap-4 mt-4 lg:mt-0 lg:flex-row max-lg:mb-4">
                                 <li>
                                     <a href="{{ url('/plan') }}"
-                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-orange-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">/plan</a>
+                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-yellow-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">/plan</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('/photo') }}"
-                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-orange-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">/photo</a>
+                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-yellow-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">/photo</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('/post') }}"
-                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-orange-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">/post</a>
+                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-yellow-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">/post</a>
                                 </li>
                             </ul>
                             <div class="flex lg:items-center justify-start flex-col lg:flex-row max-lg:gap-4 lg:flex-1 lg:justify-end">
                                 <a href="{{ url('/giftcard') }}" 
-                                class="bg-orange-600 text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm lg:ml-5 hover:bg-orange-700">ギフトを贈る
+                                class="bg-yellow-600 text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm lg:ml-5 hover:bg-yellow-700">ギフトを贈る
                                 </a>
                             </div>
 
@@ -65,12 +65,12 @@
                             <ul class="flex lg:items-center flex-col max-lg:gap-4 mt-4 lg:mt-0 lg:flex-row max-lg:mb-4">
                                 <li>
                                     <a href="{{ route('register') }}"
-                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-orange-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">新規登録</a>
+                                    class="text-gray-500 text-base lg:text-base font-medium hover:text-yellow-700 transition-all duration-500 mb-2 block lg:mr-6 md:mb-0 lg:text-left ">新規登録</a>
                                 </li>
                             </ul>
                             <div class="flex lg:items-center justify-start flex-col lg:flex-row max-lg:gap-4 lg:flex-1 lg:justify-end">
                                 <a href="{{ route('login') }}" 
-                                class="bg-orange-600 text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm lg:ml-5 hover:bg-orange-700">ログイン
+                                class="bg-yellow-600 text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm lg:ml-5 hover:bg-yellow-700">ログイン
                                 </a>
                             </div>
                         @endauth

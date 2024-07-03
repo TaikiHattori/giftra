@@ -12,19 +12,19 @@
                     <div class="w-full py-9 rounded-xl flex-col justify-start items-start flex">
                         <div class="w-full flex-col justify-center sm:items-center items-start gap-8 flex">
                             <ol class="flex sm:items-center items-start w-full sm:gap-0 gap-5">
-                                <li class="flex w-full relative justify-center text-orange-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-gray-300 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
+                                <li class="flex w-full relative justify-center text-yellow-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-gray-300 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
                                 <div class="block sm:whitespace-nowrap z-10 flex flex-col items-center text-center">
-                                    <span class="w-6 h-6 bg-orange-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">1</span> 作成
+                                    <span class="w-6 h-6 bg-yellow-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">1</span> 作成
                                 </div>
                                 </li>
-                                <li class="flex w-full relative justify-center text-orange-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-gray-300 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
+                                <li class="flex w-full relative justify-center text-yellow-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-gray-300 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
                                 <div class="block sm:whitespace-nowrap z-10 flex flex-col items-center text-center">
-                                    <span class="bg-white w-6 h-6 text-orange-600 border-2 bg-transparent border-orange-600 rounded-full flex justify-center items-center mx-auto mb-1 text-sm lg:w-8 lg:h-8">2</span> プレビュー
+                                    <span class="bg-white w-6 h-6 text-yellow-600 border-2 bg-transparent border-yellow-600 rounded-full flex justify-center items-center mx-auto mb-1 text-sm lg:w-8 lg:h-8">2</span> プレビュー
                                 </div>
                                 </li>
-                                <li class="flex w-full relative justify-center text-orange-600 text-base font-semibold">
+                                <li class="flex w-full relative justify-center text-yellow-600 text-base font-semibold">
                                     <div class="block sm:whitespace-nowrap z-10 flex flex-col items-center text-center">
-                                        <span class="bg-white w-6 h-6 text-orange-600 border-2 bg-transparent border-orange-600 rounded-full flex justify-center items-center mx-auto mb-1 text-sm lg:w-8 lg:h-8">3</span> 完了
+                                        <span class="bg-white w-6 h-6 text-yellow-600 border-2 bg-transparent border-yellow-600 rounded-full flex justify-center items-center mx-auto mb-1 text-sm lg:w-8 lg:h-8">3</span> 完了
                                     </div>
                                 </li>
                             </ol>
@@ -97,7 +97,7 @@
                     <div class="w-full rounded-xl flex-col justify-start items-start gap-6 flex">
                         <div class="w-full pb-6 border-b border-gray-200 justify-between items-start gap-6 inline-flex">
                             <h3 class="text-gray-900 text-2xl font-semibold font-manrope leading-9">合計（税込）</h3>
-                            <h3 class="text-right text-orange-600 text-2xl font-bold font-manrope leading-9">33万円</h3>
+                            <h3 class="text-right text-yellow-600 text-2xl font-bold font-manrope leading-9">33万円</h3>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                 <input type="hidden" name="giftname" value="Premium" >
                 <input type="hidden" name="giftfee" value="30">
   
-                <button class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
+                <button class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-yellow-600 hover:bg-yellow-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
                     <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">プレビュー・決済へ進む</span>
                 </button>
 

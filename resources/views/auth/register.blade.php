@@ -1,7 +1,7 @@
 @include('layouts.header')
 
 
-<section class="flex pt-20 justify-center bg-gradient-to-r from-orange-200 to-orange-400">
+<section class="flex pt-20 justify-center bg-gradient-to-r from-yellow-200 to-yellow-400">
     <div class="mx-auto w-full max-w-lg px-6 lg:px-8 py-20">
         <div class="rounded-2xl bg-white shadow-xl">
 

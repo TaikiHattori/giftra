@@ -64,7 +64,7 @@
 
 
 
-                <button type="button" onclick="submitForm()" class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
+                <button type="button" onclick="submitForm()" class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-yellow-600 hover:bg-yellow-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
                     <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">登録する</span>
                 </button>
 

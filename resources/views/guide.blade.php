@@ -82,7 +82,7 @@
                 <!-- <div class="p-6 rounded-xl bg-white">
                   <div class="flex items-center justify-between mb-1">
                     <div class="flex items-center gap-2.5">
-                      <span class="w-2.5 h-2.5 rounded-full bg-orange-400"></span>
+                      <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
                       <p class="text-base font-medium text-gray-900">9:10</p>
                     </div>
                   </div>
@@ -93,7 +93,7 @@
                 <div class="p-6 rounded-xl bg-white">
                   <div class="flex items-center justify-between mb-1">
                     <div class="flex items-center gap-2.5">
-                      <span class="w-2.5 h-2.5 rounded-full bg-orange-400"></span>
+                      <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
                       <p class="text-base font-medium text-gray-900">11:30 - 13:00</p>
                     </div>
                   </div>
@@ -104,7 +104,7 @@
                 <div class="p-6 rounded-xl bg-white">
                   <div class="flex items-center justify-between mb-1">
                     <div class="flex items-center gap-2.5">
-                      <span class="w-2.5 h-2.5 rounded-full bg-orange-400"></span>
+                      <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
                       <p class="text-base font-medium text-gray-900">13:00 - 15:00</p>
                     </div>
                   </div>
@@ -115,7 +115,7 @@
                 <div class="p-6 rounded-xl bg-white">
                   <div class="flex items-center justify-between mb-1">
                     <div class="flex items-center gap-2.5">
-                      <span class="w-2.5 h-2.5 rounded-full bg-orange-400"></span>
+                      <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
                       <p class="text-base font-medium text-gray-900">15:30 - 17:00</p>
                     </div>
                   </div>
@@ -126,7 +126,7 @@
                 <div class="p-6 rounded-xl bg-white">
                   <div class="flex items-center justify-between mb-1">
                     <div class="flex items-center gap-2.5">
-                      <span class="w-2.5 h-2.5 rounded-full bg-orange-400"></span>
+                      <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
                       <p class="text-base font-medium text-gray-900">17:30</p>
                     </div>
                   </div>

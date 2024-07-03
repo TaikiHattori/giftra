@@ -11,19 +11,19 @@
                   <div class="w-full py-9 rounded-xl flex-col justify-start items-start flex">
                       <div class="w-full flex-col justify-center sm:items-center items-start gap-8 flex">
                           <ol class="flex sm:items-center items-start w-full sm:gap-0 gap-5">
-                              <li class="flex w-full relative justify-center text-orange-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-orange-600 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
+                              <li class="flex w-full relative justify-center text-yellow-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-yellow-600 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
                               <div class="block sm:whitespace-nowrap z-10 flex flex-col items-center text-center">
-                                  <span class="w-6 h-6 bg-orange-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">1</span> 作成
+                                  <span class="w-6 h-6 bg-yellow-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">1</span> 作成
                               </div>
                               </li>
-                              <li class="flex w-full relative justify-center text-orange-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-orange-600 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
+                              <li class="flex w-full relative justify-center text-yellow-600 text-base font-semibold after:content-['']  after:w-full after:h-0.5 after:bg-yellow-600 after:inline-block after:absolute lg:after:top-4 after:top-3 xl:after:left-24 lg:after:left-28 md:after:left-24 sm:after:left-32 after:left-20">
                               <div class="block sm:whitespace-nowrap z-10 flex flex-col items-center text-center">
-                                  <span class="w-6 h-6 bg-orange-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">2</span> プレビュー
+                                  <span class="w-6 h-6 bg-yellow-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">2</span> プレビュー
                               </div>
                               </li>
-                              <li class="flex w-full relative justify-center text-orange-600 text-base font-semibold">
+                              <li class="flex w-full relative justify-center text-yellow-600 text-base font-semibold">
                                   <div class="block sm:whitespace-nowrap z-10 flex flex-col items-center text-center">
-                                      <span class="w-6 h-6 bg-orange-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">3</span> 完了
+                                      <span class="w-6 h-6 bg-yellow-600 text-center border-2 border-transparent rounded-full flex justify-center items-center mx-auto mb-1 text-base font-bold text-white lg:w-8 lg:h-8">3</span> 完了
                                   </div>
                               </li>
                           </ol>
@@ -41,7 +41,7 @@
             </div>
 
 
-              <button class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-orange-600 hover:bg-orange-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
+              <button class="mx-auto mt-10 sm:w-fit w-full px-9 py-3 bg-yellow-600 hover:bg-yellow-700 ease-in-out transition-all duration-700 rounded-xl shadow justify-center items-center flex">
                   <span class="px-3.5 text-center text-white text-lg font-semibold leading-8">受け取りリンクをコピーする</span>
               </button>
           </div>
