@@ -72,8 +72,8 @@ class GiftController extends Controller
         $gifts->giftphoto  = $request->giftphoto;
         $gifts->giftname   = $request->giftname;
         $gifts->giftfee    = $request->giftfee;
-        $gifts->save(); 
-        return view('giftcard-complete');
+        $gifts->save();
+        return view('giftcard-complete', ['presentid' => $gifts->id]);
         
     }
 
