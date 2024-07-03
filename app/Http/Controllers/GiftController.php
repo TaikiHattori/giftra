@@ -66,7 +66,8 @@ class GiftController extends Controller
 
         // Eloquentモデル
         $gifts = new Gift();
-        $gifts->user_id    = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
+        // $gifts->user_id    = Auth::user()->id; //追加のコード //Auth::user()->idは、ログインしてないとエラーになる
+        $gifts->user_id  = Auth::id() ?? null; //ログインしていない場合はnullを代入
         $gifts->message    = $request->message;
         $gifts->giftername = $request->giftername;
         $gifts->giftphoto  = $request->giftphoto;
