@@ -37,7 +37,7 @@
         <p class="max-w-4xl text-center text-gray-500 text-base font-normal leading-relaxed">プレゼントの準備ができました。</p>
 
         <div class="w-full max-w-md mt-5 text-center m-auto">
-            <img class="w-full lg:mx-0 mx-auto h-full" src="https://pagedone.io/asset/uploads/1701157806.png" alt="about Us image" />
+            <img class="w-full lg:mx-0 mx-auto h-full" src="/storage/img/giftcard_thankyou.jpg" alt="about Us image" />
         </div>
 
 

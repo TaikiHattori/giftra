@@ -39,7 +39,7 @@
 
             
                 <div class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
-                    <img class="w-full lg:mx-0 mx-auto h-full" src="https://pagedone.io/asset/uploads/1701157806.png" alt="about Us image" />
+                    <img class="w-full lg:mx-0 mx-auto h-full" src="/storage/img/giftcard_thankyou.jpg" alt="about Us image" />
                     <div class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
                         
                         
@@ -58,9 +58,7 @@
                                 <div class="w-full py-3 pb-5 flex">
                                     <div class="flex items-center flex-col min-[550px]:flex-row gap-3 min-[550px]:gap-4 w-full max-xl:justify-center max-xl:max-w-xl max-xl:mx-auto">
                                         
-                                        <img src="https://pagedone.io/asset/uploads/1712126556.png" alt="Maharaja Chair image" class="w-[120px]">
-                                        <span>{{ $giftphoto}}</span>
-                                        <input type="hidden" name="giftphoto" value="{{ $giftphoto}}">
+                                        <!-- 画像削除はてぃ -->
 
                                         <div class="pro-data w-full max-w-sm flex-col justify-start items-start gap-2 inline-flex">
                                             <h4 class="w-full text-black text-lg font-medium leading-relaxed max-[550px]:text-center">{{ $giftname}}</h4>
