@@ -1,0 +1,58 @@
+{
+  "resources/assets/effect-tinder.aef0cf08.css": {
+    "file": "assets/effect-tinder-YRAV60bk.css",
+    "src": "resources/assets/effect-tinder.aef0cf08.css",
+    "isEntry": true
+  },
+  "resources/assets/effect-tinder.f396dd4b.js": {
+    "file": "assets/effect-tinder.f396dd4b-ToyupE9w.js",
+    "name": "effect-tinder.f396dd4b",
+    "src": "resources/assets/effect-tinder.f396dd4b.js",
+    "isEntry": true
+  },
+  "resources/assets/modulepreload-polyfill.b7f2da20.js": {
+    "file": "assets/modulepreload-polyfill.b7f2da20-BlOA15DL.js",
+    "name": "modulepreload-polyfill.b7f2da20",
+    "src": "resources/assets/modulepreload-polyfill.b7f2da20.js",
+    "isEntry": true
+  },
+  "resources/assets/tinder.17df37a4.css": {
+    "file": "assets/tinder-Ci_m1FQs.css",
+    "src": "resources/assets/tinder.17df37a4.css",
+    "isEntry": true
+  },
+  "resources/assets/tinder.49154e1a.js": {
+    "file": "assets/tinder.49154e1a-uzaqIq3P.js",
+    "name": "tinder.49154e1a",
+    "src": "resources/assets/tinder.49154e1a.js",
+    "isEntry": true,
+    "imports": [
+      "resources/assets/modulepreload-polyfill.b7f2da20.js",
+      "resources/assets/vendor.602a9696.js",
+      "resources/assets/effect-tinder.f396dd4b.js"
+    ]
+  },
+  "resources/assets/vendor.602a9696.js": {
+    "file": "assets/vendor.602a9696-BKvfL9v2.js",
+    "name": "vendor.602a9696",
+    "src": "resources/assets/vendor.602a9696.js",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-C4SEprO9.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/api.js": {
+    "file": "assets/api-BM9sVgp4.js",
+    "name": "api",
+    "src": "resources/js/api.js",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Cs0QkU1O.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

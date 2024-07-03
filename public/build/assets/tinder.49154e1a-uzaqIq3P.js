@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill.b7f2da20-BlOA15DL.js";import{e}from"./vendor.602a9696-BKvfL9v2.js";import{e as r}from"./effect-tinder.f396dd4b-ToyupE9w.js";const o=new e(".swiper",{modules:[r],effect:"tinder",grabCursor:!0});window.swiper=o;

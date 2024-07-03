@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const o=document.getElementById("location");let t=new google.maps.places.Autocomplete(o);t.addListener("place_changed",()=>{let e=t.getPlace();e.geometry&&(latitudeInput.value=e.geometry.location.lat(),longitudeInput.value=e.geometry.location.lng())})});
