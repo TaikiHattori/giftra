@@ -17,8 +17,7 @@
                 </div>
                 <div class="w-full xl:col-span-7  lg:col-span-6 block">
                 <div class="w-full  sm:w-auto lg:w-[60.8125rem] xl:ml-16">
-                    <img src="https://gs-sakura.sakura.ne.jp/hermansyah-7uXn7nudorc-unsplash2.png" alt="Dashboard image"
-                    class="w-full  lg:h-auto ">
+                    <img src="/storage/img/top.jpg" alt="Dashboard image" class="w-full lg:h-auto rounded-3xl">
                 </div>
                 </div>
             </div>
@@ -34,7 +33,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <a href="/giftcard" class="max-w-[384px] mx-auto">
                     <div class="w-full max-w-sm aspect-square">
-                        <img src="https://pagedone.io/asset/uploads/1701157806.png" alt="cream image" class="w-full h-full rounded-xl">
+                        <img src="/storage/img/gift_standard.jpg" alt="cream image" class="w-full h-full rounded-xl">
                     </div>
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
@@ -56,7 +55,7 @@
 
                 <a href="/giftcard" class="max-w-[384px] mx-auto">
                     <div class="w-full max-w-sm aspect-square">
-                        <img src="https://pagedone.io/asset/uploads/1701157826.png" alt="cream image" class="w-full h-full rounded-xl">
+                        <img src="/storage/img/gift_special.jpg" alt="cream image" class="w-full h-full rounded-xl">
                     </div>
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
@@ -78,7 +77,7 @@
 
                 <a href="/giftcard" class="max-w-[384px] mx-auto">
                     <div class="w-full max-w-sm aspect-square relative">
-                        <img src="https://pagedone.io/asset/uploads/1701157844.png" alt="serum bottle image" class="w-full h-full rounded-xl">
+                        <img src="/storage/img/gift_premium.jpg" alt="cream image" class="w-full h-full rounded-xl">
                     </div>
                     <div class="mt-5 flex items-center justify-between">
                         <div class="">
