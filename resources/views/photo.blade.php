@@ -22,7 +22,7 @@
                                 <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div>
                                 <div class="demo-slide-name">
                                     <div class="mb-2">{{ $post->comment }}</div>
-                                    <span class="text-xs mr-2">#ホテル</span><span class="text-xs mr-2">#軽井沢</span><span class="text-xs mr-2">#30代に人気</span>
+                                    <span class="text-xs mr-2">#自然</span><span class="text-xs mr-2">#世界遺産</span><span class="text-xs mr-2">#絶景</span>
 
                                     <div class="mt-2 flex items-center gap-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
