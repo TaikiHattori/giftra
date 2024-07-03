@@ -17,7 +17,7 @@ class PostController extends Controller
     public function index()
     {
         // $posts = Post::orderBy('created_at', 'asc')->get();
-        $posts = Post::take(2)->get();
+        $posts = Post::take(10)->get();
         return view('photo', [
             'photo' => $posts
         ]);
